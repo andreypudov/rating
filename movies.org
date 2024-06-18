@@ -68,7 +68,6 @@
 - [ ] [[https://www.imdb.com/title/tt9738784/][Persian Lessons]]
 - [ ] [[https://www.imdb.com/title/tt6673840/][Spacewalk]]
 - [X] [[https://www.imdb.com/title/tt12758060/][Tetris]]
-- [ ] [[https://www.imdb.com/title/tt1103275/][Two Lovers]]
 
 * Unrated
 - [ ] [[https://www.imdb.com/title/tt0947798/][Black Swan]]

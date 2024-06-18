@@ -2,7 +2,7 @@
 
 cd "$(dirname -- "$(which -- "$0" 2>/dev/null || realpath -- "$0")")" || exit 1
 
-rating_dir="$HOME/rating"
+rating_dir="../../rating"
 
 if [ ! -d "$rating_dir" ]; then
   echo "Directory of the Rating repository is not found."

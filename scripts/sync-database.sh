@@ -2,8 +2,8 @@
 
 cd "$(dirname -- "$(which -- "$0" 2>/dev/null || realpath -- "$0")")" || exit 1
 
-agenda_dir="$HOME/agenda"
-rating_dir="$HOME/rating"
+agenda_dir="../../agenda"
+rating_dir="../../rating"
 
 if [ ! -d "$agenda_dir" ]; then
   echo "Directory of the Agenda repository is not found."
@@ -26,7 +26,3 @@ if ! cp "$agenda_dir/books.org" \
   echo "Failed to copy files."
   exit 1
 fi
-
-git add books.org cooking.org games.org movies.org music.org
-git commit -m "$(date -u +"%Y-%m-%d %H:%M:%SZ")"
-git push
