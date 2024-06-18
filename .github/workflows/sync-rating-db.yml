@@ -19,6 +19,6 @@ jobs:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           path: agenda
       - name: Sync Database
-        run: scripts/sync-database.sh
+        run: rating/scripts/sync-database.sh
       - name: Export to HTML
-        run: scrips/export-to-html.sh
+        run: rating/scrips/export-to-html.sh
