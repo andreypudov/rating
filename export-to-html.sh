@@ -10,3 +10,6 @@ for file in *.org; do
     "$file" \
     --funcall org-html-export-to-html
 done
+
+mv README.html index.html
+cp index.html 404.html
