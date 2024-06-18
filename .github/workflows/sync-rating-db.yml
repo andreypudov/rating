@@ -23,6 +23,7 @@ jobs:
         run: rating/scripts/export-to-html.sh
       - name: Update the repository
         run: |
+          cd rating
           git config --global user.name 'Sync Rating Db'
           git config --global user.email 'sync-rating-db@users.noreply.github.com'
           git add .
