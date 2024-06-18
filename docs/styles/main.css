@@ -20,7 +20,7 @@ body {
   line-height: var(--line-height);
 
   margin: auto;
-  padding: 0;
+  padding: 8px 32px;
   max-width: var(--content-width);
 }
 
@@ -32,4 +32,10 @@ h1 {
   font-size: 2em;
   padding-bottom: .3em;
   border-bottom: 1px solid var(--color-header-border);
+}
+
+li {
+  code {
+    display: none;
+  }
 }
