@@ -21,3 +21,10 @@ jobs:
         run: rating/scripts/sync-database.sh
       - name: Export to HTML
         run: rating/scripts/export-to-html.sh
+      - name: Update the repository
+        run: |
+          git config --global user.name 'Sync Rating Db'
+          git config --global user.email 'sync-rating-db@users.noreply.github.com'
+          git add .
+          git commit -m "$(date -u +"%Y-%m-%d %H:%M:%SZ")"
+          git push
