@@ -41,6 +41,6 @@ for file in "$rating_dir"/*.org; do
   rm "$temp_file"
 done
 
-mv "$rating_dir/"*.html "$rating_dir/docs/"
-mv "$rating_dir/docs/README.html" "$rating_dir/docs/index.html"
-cp "$rating_dir/docs/index.html" "$rating_dir/docs/404.html"
+mv "$rating_dir/"*.html "$rating_dir/web/"
+mv "$rating_dir/web/README.html" "$rating_dir/web/index.html"
+cp "$rating_dir/web/index.html" "$rating_dir/web/404.html"
