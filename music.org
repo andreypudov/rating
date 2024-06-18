@@ -1,0 +1,8 @@
+#+title: Music
+#+description: The list of music compositions
+#+date: <2024-04-18 Thu>
+
+* Musicals
+- [X] [[https://www.imdb.com/title/tt3783958/][La La Land]]
+- [ ] [[https://www.imdb.com/title/tt1707386/][Les Misérables]]
+- [ ] [[https://www.imdb.com/title/tt0293508/][Phantom of the Opera]]

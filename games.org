@@ -1,0 +1,6 @@
+#+title: Games
+#+description: The list of games
+#+date: <2024-04-18 Thu>
+
+* Online Board Games
+- [[https://sevencastles.eu/game][Seven Castles]]

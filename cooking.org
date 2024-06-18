@@ -1,0 +1,10 @@
+#+title: Dishes
+#+description: The list of dishes to cook
+#+date: <2024-04-18 Thu>
+
+* Dessert
+- [X] Carbonara
+- [X] Olivier Salad
+- [ ] Pancakes with Red Caviar
+- [X] Takoyaki
+- [X] Tiramisu

@@ -1,0 +1,7 @@
+#+title: Books
+#+description: The list of books
+#+date: <2024-04-18 Thu>
+
+* Language Learning
+- [ ] Beginner's Russian with Interactive Online Workbook, 2nd edition
+- [ ] New Practical Chinese Reader, 3rd edition

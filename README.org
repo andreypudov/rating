@@ -1,0 +1,9 @@
+#+title: Pei Pei and Andrey's Movies Rating
+#+description: The lrating of books, dishes, games, movies, and music
+#+date: <2024-06-18 Tue>
+
+- [[./books.org][Books]]
+- [[./cooking.org][Dishes]]
+- [[./games.org][Games]]
+- [[./movies.org][Movies]]
+- [[./music.org][Music]]
