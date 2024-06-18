@@ -1,0 +1,2 @@
+#+HTML_HEAD: <script async src="https://www.googletagmanager.com/gtag/js?id=G-HGE5KS3YQ9"></script>
+#+HTML_HEAD: <script src="./scripts/analytics.js"></script>

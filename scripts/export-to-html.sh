@@ -10,7 +10,15 @@ if [ ! -d "$rating_dir" ]; then
 fi
 
 for file in "$rating_dir"/*.org; do
+  file_name="$(basename -- "$file")"
+  temp_file="$file_name.temp.org"
+
   echo "Processing $file"
+
+  { cat "$rating_dir/overrides/analytics.org";
+    cat "$rating_dir/overrides/style.org";
+    cat "$file"; } > "$temp_file"
+
   if ! emacs \
     --batch \
     --eval "(require 'org)" \
@@ -21,11 +29,16 @@ for file in "$rating_dir"/*.org; do
              org-html-preamble nil
              org-html-postamble nil
              org-html-use-infojs nil)" \
-    "$file" \
+    "$temp_file" \
     --funcall org-html-export-to-html 1>/dev/null; then
     echo "Failed to convert $file to HTML."
+
+    rm "$temp_file"
     exit 1
   fi
+
+  mv "${temp_file%.org}.html" "$rating_dir/${file_name%.org}.html"
+  rm "$temp_file"
 done
 
 mv "$rating_dir/"*.html "$rating_dir/docs/"
