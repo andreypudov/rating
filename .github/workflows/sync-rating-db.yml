@@ -18,4 +18,4 @@ jobs:
       - name: Sync Database
         run: rating/scripts/sync-database.sh
       - name: Export to HTML
-        run: rating/scrips/export-to-html.sh
+        run: rating/scripts/export-to-html.sh
