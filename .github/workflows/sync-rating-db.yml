@@ -1,5 +1,6 @@
 name: 'Sync Rating Database'
-on: 
+on:
+  push:
   workflow_dispatch:
 jobs:
   sync-rating-db:
