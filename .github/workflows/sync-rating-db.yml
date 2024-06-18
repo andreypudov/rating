@@ -1,0 +1,21 @@
+name: 'Sync Rating Database'
+on: 
+  workflow_dispatch:
+jobs:
+  sync-rating-db:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the Rating repository
+        uses: actions/checkout@v4
+        with:
+          path: rating
+      - name: Check out the Agenda repository
+        uses: actions/checkout@v4
+        with:
+          repository: andreypudov/agenda
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          path: agenda
+      - name: Sync Database
+        run: rating/scripts/sync-database.sh
+      - name: Export to HTML
+        run: rating/scrips/export-to-html.sh
