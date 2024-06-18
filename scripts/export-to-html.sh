@@ -11,11 +11,21 @@ fi
 
 for file in "$rating_dir"/*.org; do
   echo "Processing $file"
-  emacs \
+  if ! emacs \
     --batch \
     --eval "(require 'org)" \
+    --eval "(setq org-html-head \"\"
+             org-html-head-extra \"\"
+             org-html-head-include-default-style nil
+             org-html-head-include-scripts nil
+             org-html-preamble nil
+             org-html-postamble nil
+             org-html-use-infojs nil)" \
     "$file" \
-    --funcall org-html-export-to-html
+    --funcall org-html-export-to-html 1>/dev/null; then
+    echo "Failed to convert $file to HTML."
+    exit 1
+  fi
 done
 
 mv "$rating_dir/"*.html "$rating_dir/docs/"
