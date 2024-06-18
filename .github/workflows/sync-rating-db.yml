@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./scripts
+        working-directory: $HOME
     steps:
       - name: Check out the Rating repository
         uses: actions/checkout@v4
@@ -19,6 +19,6 @@ jobs:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           path: agenda
       - name: Sync Database
-        run: rating/scripts/sync-database.sh
+        run: $HOME/rating/scripts/sync-database.sh
       - name: Export to HTML
-        run: rating/scrips/export-to-html.sh
+        run: $HOME/rating/scrips/export-to-html.sh
