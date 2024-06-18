@@ -5,6 +5,8 @@ jobs:
   sync-rating-db:
     runs-on: ubuntu-latest
     steps:
+      - name: Install Emacs
+        run: sudo apt install -y emacs
       - name: Check out the Rating repository
         uses: actions/checkout@v4
         with:
