@@ -6,3 +6,6 @@
 - [X] [[https://www.imdb.com/title/tt3783958/][La La Land]]
 - [ ] [[https://www.imdb.com/title/tt1707386/][Les Misérables]]
 - [ ] [[https://www.imdb.com/title/tt0293508/][Phantom of the Opera]]
+
+* Concerts
+- [X] [[https://www.palaumusica.cat/en/max-richter-s-four-seasons_1135124][Max Richter's Four Seasons by Sayaka Shoji]]
