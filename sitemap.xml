@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://andreypudov.com/rating/</loc>
+    <lastmod>2024-06-20T12:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/rating/books.html</loc>
+    <lastmod>2024-06-20T12:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/rating/cooking.html</loc>
+    <lastmod>2024-06-20T12:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/rating/games.html</loc>
+    <lastmod>2024-06-20T12:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/rating/movies.html</loc>
+    <lastmod>2024-06-20T12:00:00.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andreypudov.com/rating/music.html</loc>
+    <lastmod>2024-06-20T12:00:00.000Z</lastmod>
+  </url>
+</urlset>
