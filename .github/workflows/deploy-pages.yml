@@ -4,6 +4,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+  workflow_run:
+    workflows: [Sync Rating Database]
+    types:
+      - completed
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
