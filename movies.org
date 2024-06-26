@@ -85,7 +85,7 @@
 - [ ] [[https://www.imdb.com/title/tt1504320/][King's Speech]]
 - [ ] [[https://www.imdb.com/title/tt0110413/][Léon: The Professional]]
 - [X] [[https://www.imdb.com/title/tt5302918/][Nyad]]
-- [ ] [[https://www.imdb.com/title/tt2397535/][Predestination]]
+- [X] [[https://www.imdb.com/title/tt2397535/][Predestination]]
 - [ ] [[https://www.imdb.com/title/tt1403981/][Remember Me]]
 - [ ] [[https://www.imdb.com/title/tt0063518/][Romeo and Juliet]]
 - [ ] [[https://www.imdb.com/title/tt0105323/][Scent of a Woman]]
