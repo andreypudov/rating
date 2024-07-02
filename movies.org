@@ -68,7 +68,7 @@
 - [ ] [[https://www.imdb.com/title/tt6673840/][Spacewalk]]
 - [X] [[https://www.imdb.com/title/tt12758060/][Tetris]]
 
-* Unrated
+* Uncategorized
 - [ ] [[https://www.imdb.com/title/tt0947798/][Black Swan]]
 - [X] [[https://www.imdb.com/title/tt1727824/][Bohemian Rhapsody]]
 - [X] [[https://www.imdb.com/title/tt2380307/][Coco]]
