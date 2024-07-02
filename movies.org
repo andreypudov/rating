@@ -93,3 +93,4 @@
 - [ ] [[https://www.imdb.com/title/tt1103275/][Two Lovers]]
 - [ ] [[https://www.imdb.com/title/tt0263757/][Uptown Girls]]
 - [X] [[https://www.imdb.com/title/tt1068680/][Yes Man]]
+- [ ] [[https://www.imdb.com/title/tt2096673/][Inside Out]]
