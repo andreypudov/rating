@@ -41,12 +41,17 @@
 - [ ] [[https://www.imdb.com/title/tt6878038/][Taxi Driver]]
 - [X] [[https://www.imdb.com/title/tt2013293/][Wind Rises]]
 
+* Documentaries
+- [X] [[https://www.imdb.com/title/tt7775622/][Free Solo]]
+- [ ] [[https://www.imdb.com/title/tt1509276/][Wildest Dream]]
+
 * Series
 - [ ] [[https://www.imdb.com/title/tt0083100/][Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles]]
 - [ ] [[https://www.imdb.com/title/tt0096540/][Bangkok Hilton]]
 - [X] [[https://www.imdb.com/title/tt7366338/][Chernobyl]]
 - [ ] [[https://www.imdb.com/title/tt9179552/][Dr. Death]]
 - [ ] [[https://www.imdb.com/title/tt13031912/][Fantaghirò: Cave of the Golden Rose]]
+- [-] [[https://www.imdb.com/title/tt0412142/][House]]
 - [ ] [[https://www.imdb.com/title/tt10048342/][Queen's Gambit]]
 - [ ] [[https://www.imdb.com/title/tt2788316/][Shōgun]]
 - [X] [[https://www.imdb.com/title/tt3910804/][War & Peace]]
