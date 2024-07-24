@@ -37,7 +37,7 @@
 * Asian
 - [ ] [[https://www.imdb.com/title/tt27445004/][Abang Adik]]
 - [ ] [[https://www.imdb.com/title/tt0084390/][Ballad of Narayama]]
-- [ ] [[https://www.imdb.com/title/tt0245429/][Spirited Away]]
+- [X] [[https://www.imdb.com/title/tt0245429/][Spirited Away]]
 - [ ] [[https://www.imdb.com/title/tt6878038/][Taxi Driver]]
 - [X] [[https://www.imdb.com/title/tt2013293/][Wind Rises]]
 
@@ -47,7 +47,7 @@
 
 * Series
 - [ ] [[https://www.imdb.com/title/tt0083100/][Adventures of Sherlock Holmes and Dr. Watson: The Hound of the Baskervilles]]
-- [ ] [[https://www.imdb.com/title/tt0096540/][Bangkok Hilton]]
+- [X] [[https://www.imdb.com/title/tt0096540/][Bangkok Hilton]]
 - [X] [[https://www.imdb.com/title/tt7366338/][Chernobyl]]
 - [ ] [[https://www.imdb.com/title/tt9179552/][Dr. Death]]
 - [ ] [[https://www.imdb.com/title/tt13031912/][Fantaghirò: Cave of the Golden Rose]]
